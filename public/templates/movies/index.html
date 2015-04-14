@@ -1,0 +1,6 @@
+<ol>
+	<li ng-repeat="movie in movieList.movies | orderBy: '-added' | filter: filterBy">
+		{{movie.title}}, {{movie.year}} <span class="glyphicon glyphicon-trash" aria-hidden="true"></span><br/>
+		<small>Added: {{movie.added | date: 'dd/MM/yyyy'}}</small>
+	</li>
+</ol>

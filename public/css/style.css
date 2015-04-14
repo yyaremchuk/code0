@@ -1,0 +1,17 @@
+
+/*.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
+*/
+
+.add-form {
+	margin-bottom: 20px;
+}
+
+.m-tab {
+	margin-top: 10px;
+}
